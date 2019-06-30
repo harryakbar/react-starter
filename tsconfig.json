@@ -1,0 +1,16 @@
+/*
+*   tsconfig.json contains TypeScript-specific options for our project.
+*   We also have a tsconfig.prod.json and a tsconfig.test.json 
+*   in case we want to make any tweaks to our production builds, or our test builds.
+*/
+
+{
+  "compilerOptions": {
+      "outDir": "./built",
+      "allowJs": true,
+      "target": "es5"
+  },
+  "include": [
+      "./src/**/*"
+  ]
+}

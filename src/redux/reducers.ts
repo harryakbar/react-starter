@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 
-function auth(state = {}, action) {
+function auth(state = {}, action: { type: any; }) {
   switch (action.type) {
   case 'SET_AUTH':
     return ;
